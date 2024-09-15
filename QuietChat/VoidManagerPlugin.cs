@@ -6,8 +6,10 @@ namespace QuietChat
     {
         public override MultiplayerType MPType => MultiplayerType.Client;
 
-        public override string Author => "18107";
+        public override string Author => MyPluginInfo.PLUGIN_AUTHORS;
 
-        public override string Description => "Removes chat messages produced by the game.\nPlayer messages are still displayed.";
+        public override string Description => MyPluginInfo.PLUGIN_DESCRIPTION;
+
+        public override string ThunderstoreID => MyPluginInfo.PLUGIN_THUNDERSTORE_ID;
     }
 }
